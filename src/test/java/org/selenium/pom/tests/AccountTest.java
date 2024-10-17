@@ -53,8 +53,8 @@ public class AccountTest extends BaseTest {
     public void navigateAndViewOrderInAccount() {
          new AccountPage(getDriver())
                 .load()
-                .enterUsername("qwerty")
-                .enterPassword("qwerty")
+                .enterUsername("qwertysh")
+                .enterPassword("qwertysh")
                 .clickLoginBtn()
                 .clickOrdersTab()
                 .clickViewOrderBtn();
