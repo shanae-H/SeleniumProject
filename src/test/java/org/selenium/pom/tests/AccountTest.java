@@ -21,8 +21,8 @@ public class AccountTest extends BaseTest {
     public void viewExistingOrder() throws IOException, InterruptedException {
         BillingAddress billingAddress = JacksonUtils.deserializeJson("myBillingAddress.json", BillingAddress.class);
         User user = new User()
-                .setUserName("qwerty")
-                .setPassword("qwerty");
+                .setUserName("qwertysh")
+                .setPassword("qwertysh");
 
         LoginApi loginApi = new LoginApi();
         loginApi.login(user);
