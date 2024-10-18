@@ -40,7 +40,7 @@ public class NavigationTest extends BaseTest {
         ProductPage productPage = new StorePage(getDriver())
                 .load()
                 .navigateToFeaturedProduct();
-        Assert.assertTrue(productPage.getProductTitle().contains("Basic Blue Jeans"));
+        Assert.assertTrue(productPage.getProductTitle().contains("Dark Brown Jeans"));
     }
     @Test
     public void NavigateFromHomeToFeaturedProductPage(){
